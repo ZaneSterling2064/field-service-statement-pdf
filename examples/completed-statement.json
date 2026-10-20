@@ -1,0 +1,37 @@
+{
+  "account_name": "North Plant",
+  "period_label": "September 2026",
+  "work_orders": [
+    {
+      "id": "WO-1042",
+      "site": "Pump room 3",
+      "dispatch_status": "completed",
+      "metering_status": "settled",
+      "completed_at": "2026-09-27T16:20:00Z",
+      "amount": 125.5,
+      "photos": [
+        {
+          "source": "https://images.example.com/work-orders/WO-1042-after.jpg",
+          "caption": "Valve after replacement"
+        }
+      ],
+      "technician_follow_up": {
+        "technician": "R. Chen",
+        "summary": "Recheck pressure at the next scheduled visit."
+      }
+    },
+    {
+      "id": "WO-1047",
+      "site": "Loading bay",
+      "dispatch_status": "en_route",
+      "metering_status": "pending",
+      "completed_at": "0001-01-01T00:00:00Z",
+      "amount": 80,
+      "photos": [],
+      "technician_follow_up": {
+        "technician": "M. Ortiz",
+        "summary": "Awaiting site arrival."
+      }
+    }
+  ]
+}
